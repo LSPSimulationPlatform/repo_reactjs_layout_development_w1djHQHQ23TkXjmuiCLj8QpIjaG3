@@ -1,4 +1,3 @@
-import React from 'react' // Import React to enable JSX usage (not strictly required for hooks but kept for consistency)
 // Import icons used in dashboard stats for visual affordances (prefixes)
 import { 
   ArrowUpOutlined, 

@@ -8,6 +8,7 @@ import { ConfigProvider } from 'antd';
 import AppLayout from "./pages/AppLayout.tsx";
 import Home from "./pages/Home.tsx";
 import About from "./pages/About.tsx";
+import Users from "./pages/Users.tsx";
 
 // Create a React Query client instance used by QueryClientProvider
 const queryClient = new QueryClient();
@@ -35,7 +36,7 @@ const App = () => (
             <Route index element={<Home />} />
             {/* Nested routes inside AppLayout for different pages */}
             <Route path="about" element={<About />} /> {/* /about */}
-            <Route path="users" element={<h1>Users Pages</h1>} /> {/* /users */}
+            <Route path="users" element={<Users />} /> {/* /users */}
             <Route path="create-user" element={<h1>Create User Page</h1>} /> {/* /create-user */}
           </Route>
 
