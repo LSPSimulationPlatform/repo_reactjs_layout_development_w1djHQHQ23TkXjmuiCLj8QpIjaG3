@@ -5,6 +5,7 @@ import {
   UserOutlined, // Icon for Users menu item
   InfoCircleOutlined, // Icon for About menu item
   PlusOutlined, // Icon for Create User menu item
+  ContactsOutlined
 } from '@ant-design/icons'; // Ant Design icon set
 
 
@@ -22,6 +23,8 @@ const Sidebar: React.FC<any> = ({ // Sidebar component accepts layout/navigation
     { key: '/about', icon: <InfoCircleOutlined />, label: 'About' }, // About page route
     { key: '/users', icon: <UserOutlined />, label: 'Users' }, // Users list route
     { key: '/create-user', icon: <PlusOutlined />, label: 'Create User' }, // Create user route
+    { key: '/contact', icon: <ContactsOutlined />, label: 'Contact'},
+    
   ];
 
   return (
