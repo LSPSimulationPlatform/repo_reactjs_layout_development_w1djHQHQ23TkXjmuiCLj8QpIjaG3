@@ -31,7 +31,7 @@ const ContactUs: React.FC = () => {
         <div 
           style={{ 
             // Ensures this column takes up exactly 40%
-            flex: '0 0 50%' 
+            flex: '0 0 45%' 
           }}
         >
           <Touch />

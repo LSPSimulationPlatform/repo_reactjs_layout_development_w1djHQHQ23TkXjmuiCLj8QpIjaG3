@@ -5,11 +5,12 @@ import { UserOutlined, MailOutlined, MessageOutlined } from '@ant-design/icons';
 const ContactInputs: React.FC = () => {
   return (
     <Card title="Send us a Message">
+      <div>
         <Form
           layout="vertical" // <-- ensures labels appear above inputs
           name="contactForm"
         >
-          <Row gutter={[16, 16]}>
+          <Row gutter={[0, 0]}>
             {/* Name */}
             <Col xs={24} sm={24}>
               <Form.Item
@@ -86,8 +87,9 @@ const ContactInputs: React.FC = () => {
         </Form>
 
         <Button style={{
-          backgroundColor: '#007FFF',color: 'white', border:'none',width: '100%'
+          backgroundColor: '#007FFF',color: 'white', border:'white',width: '100%'
         }}>Send Message</Button>
+        </div>
       </Card>
   );
 };
