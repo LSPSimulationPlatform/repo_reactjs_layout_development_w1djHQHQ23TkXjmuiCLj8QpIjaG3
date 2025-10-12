@@ -1,13 +1,9 @@
-import MessageField from './MessageField';
-import Inputs from'./Inputs';
+import Inputs from './Inputs';
 
 const ContactMessage: React.FC = () => {
     return (
         <>
-
-        
-        <Inputs />
-        <MessageField />
+            <Inputs />
         </>
     )
 };
